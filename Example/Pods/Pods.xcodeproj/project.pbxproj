@@ -11,6 +11,12 @@
 		8BCD21DCB7984CAE5354F3D5664393C8 /* Pods-ELRemoteLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC14B46268D550140F9B55A83B08347 /* Pods-ELRemoteLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96C4D555D21EA47DBFA377985F666920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9869D95437109D760879E0FEDC2BA176 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4161472006EB11561EC8606DF27F8CC /* ReplaceMe.m */; };
+		AAA3D2F22061EF72000A440C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3D2EC2061EF71000A440C /* AFURLRequestSerialization.m */; };
+		AAA3D2F32061EF72000A440C /* Antenna.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3D2ED2061EF71000A440C /* Antenna.m */; };
+		AAA3D2F42061EF72000A440C /* DDAntennaLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D2EE2061EF71000A440C /* DDAntennaLogger.h */; };
+		AAA3D2F52061EF72000A440C /* DDAntennaLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3D2EF2061EF71000A440C /* DDAntennaLogger.m */; };
+		AAA3D2F62061EF72000A440C /* Antenna.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D2F02061EF72000A440C /* Antenna.h */; };
+		AAA3D2F72061EF72000A440C /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D2F12061EF72000A440C /* AFURLRequestSerialization.h */; };
 		AACE9511E604D0D5126C7C3041C1D85C /* Pods-ELRemoteLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 044460400FF925AF729E7E1EC71C4404 /* Pods-ELRemoteLogger_Tests-dummy.m */; };
 		C21CFEB73FC5339692CB572BEDE75672 /* ELRemoteLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0C133C13DCB0FDBCDB2FDC23FF7DBB /* ELRemoteLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C47B36B22E4A4A7D0959FF4A2418F90A /* Pods-ELRemoteLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CAB48D852135FCCE29FBF95A60B5A4 /* Pods-ELRemoteLogger_Example-dummy.m */; };
@@ -40,23 +46,29 @@
 		6120FE3D7308DE2458D2A668B3B1A0E4 /* ELRemoteLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELRemoteLogger-prefix.pch"; sourceTree = "<group>"; };
 		638E483C617B2C31384B802ACE7C01D6 /* Pods-ELRemoteLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELRemoteLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6BF96D7A7359EC9596DDA1B4265AF2FA /* Pods-ELRemoteLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ELRemoteLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		6BF96D7A7359EC9596DDA1B4265AF2FA /* Pods-ELRemoteLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ELRemoteLogger_Tests.modulemap"; sourceTree = "<group>"; };
 		6DD3399D30FCB5525BAEDE3081B34778 /* Pods-ELRemoteLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ELRemoteLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7C54CFD841116D03791472736DB9BBDD /* Pods-ELRemoteLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELRemoteLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E63E3ACE6B4EEEBAE3F18BDF1E131A4 /* Pods-ELRemoteLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELRemoteLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A6ED2A91E2BB757285094DD4891E6CE /* Pods-ELRemoteLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ELRemoteLogger_Example.modulemap"; sourceTree = "<group>"; };
-		8C8FCA3BAA8E0D33D6C940646A74971C /* Pods_ELRemoteLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ELRemoteLogger_Tests.framework; path = "Pods-ELRemoteLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6ED2A91E2BB757285094DD4891E6CE /* Pods-ELRemoteLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ELRemoteLogger_Example.modulemap"; sourceTree = "<group>"; };
+		8C8FCA3BAA8E0D33D6C940646A74971C /* Pods_ELRemoteLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELRemoteLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F9E60B97B455F28B60A2208BEBD459 /* ELRemoteLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELRemoteLogger.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BE77E15E8D666D7C25E0C5345B11514 /* ELRemoteLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELRemoteLogger-dummy.m"; sourceTree = "<group>"; };
 		A7CAB48D852135FCCE29FBF95A60B5A4 /* Pods-ELRemoteLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELRemoteLogger_Example-dummy.m"; sourceTree = "<group>"; };
-		B18246A27C9B3C781F41FC754F7254B3 /* ELRemoteLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ELRemoteLogger.modulemap; sourceTree = "<group>"; };
+		AAA3D2EC2061EF71000A440C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = ELRemoteLogger/Classes/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AAA3D2ED2061EF71000A440C /* Antenna.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Antenna.m; path = ELRemoteLogger/Classes/Antenna.m; sourceTree = "<group>"; };
+		AAA3D2EE2061EF71000A440C /* DDAntennaLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAntennaLogger.h; path = ELRemoteLogger/Classes/DDAntennaLogger.h; sourceTree = "<group>"; };
+		AAA3D2EF2061EF71000A440C /* DDAntennaLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDAntennaLogger.m; path = ELRemoteLogger/Classes/DDAntennaLogger.m; sourceTree = "<group>"; };
+		AAA3D2F02061EF72000A440C /* Antenna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Antenna.h; path = ELRemoteLogger/Classes/Antenna.h; sourceTree = "<group>"; };
+		AAA3D2F12061EF72000A440C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = ELRemoteLogger/Classes/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B18246A27C9B3C781F41FC754F7254B3 /* ELRemoteLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ELRemoteLogger.modulemap; sourceTree = "<group>"; };
 		B6F3671290DC2031E690C1581B79F38A /* Pods-ELRemoteLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELRemoteLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BA0C133C13DCB0FDBCDB2FDC23FF7DBB /* ELRemoteLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELRemoteLogger-umbrella.h"; sourceTree = "<group>"; };
 		BAF255F6F0DF13AEF2E0C4AF76E23687 /* Pods-ELRemoteLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELRemoteLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0804AD207E3FAB5D1238EE44F64175E /* Pods_ELRemoteLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ELRemoteLogger_Example.framework; path = "Pods-ELRemoteLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0804AD207E3FAB5D1238EE44F64175E /* Pods_ELRemoteLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELRemoteLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1BBE4D0723354A3A5DB46B96BA15A2 /* Pods-ELRemoteLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELRemoteLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA7D6C1B69DDF683BADE8EEAC408C37B /* ELRemoteLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ELRemoteLogger.framework; path = ELRemoteLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7D6C1B69DDF683BADE8EEAC408C37B /* ELRemoteLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELRemoteLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD28805E0CE4D819FD3143FB30224CA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E94F8DCEA1E42C6954465FFEFD4698F8 /* Pods-ELRemoteLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELRemoteLogger_Example-resources.sh"; sourceTree = "<group>"; };
 		F4161472006EB11561EC8606DF27F8CC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ELRemoteLogger/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -156,6 +168,12 @@
 		B41DAE67329B8C38E4B696608A84B775 /* ELRemoteLogger */ = {
 			isa = PBXGroup;
 			children = (
+				AAA3D2F12061EF72000A440C /* AFURLRequestSerialization.h */,
+				AAA3D2EC2061EF71000A440C /* AFURLRequestSerialization.m */,
+				AAA3D2F02061EF72000A440C /* Antenna.h */,
+				AAA3D2ED2061EF71000A440C /* Antenna.m */,
+				AAA3D2EE2061EF71000A440C /* DDAntennaLogger.h */,
+				AAA3D2EF2061EF71000A440C /* DDAntennaLogger.m */,
 				F4161472006EB11561EC8606DF27F8CC /* ReplaceMe.m */,
 				8D73F9A46F5A232FFF21042D4AC11FCA /* Support Files */,
 			);
@@ -229,6 +247,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA3D2F62061EF72000A440C /* Antenna.h in Headers */,
+				AAA3D2F42061EF72000A440C /* DDAntennaLogger.h in Headers */,
+				AAA3D2F72061EF72000A440C /* AFURLRequestSerialization.h in Headers */,
 				C21CFEB73FC5339692CB572BEDE75672 /* ELRemoteLogger-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +342,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA3D2F22061EF72000A440C /* AFURLRequestSerialization.m in Sources */,
+				AAA3D2F32061EF72000A440C /* Antenna.m in Sources */,
+				AAA3D2F52061EF72000A440C /* DDAntennaLogger.m in Sources */,
 				C55B74E20B96B1FEA3326308BF626EBD /* ELRemoteLogger-dummy.m in Sources */,
 				9869D95437109D760879E0FEDC2BA176 /* ReplaceMe.m in Sources */,
 			);
