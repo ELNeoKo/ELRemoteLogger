@@ -33,7 +33,6 @@
 		AAA3D3232061F0C3000A440C /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D3062061F0C1000A440C /* DDASLLogCapture.h */; };
 		AAA3D3242061F0C3000A440C /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D3072061F0C1000A440C /* DDAssertMacros.h */; };
 		AAA3D3252061F0C3000A440C /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3D3082061F0C1000A440C /* DDOSLogger.m */; };
-		AAA3D3262061F0C3000A440C /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3D3092061F0C1000A440C /* CocoaLumberjack.swift */; };
 		AAA3D3272061F0C3000A440C /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D30A2061F0C2000A440C /* DDLog.h */; };
 		AAA3D3282061F0C3000A440C /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D30B2061F0C2000A440C /* DDLog+LOGV.h */; };
 		AAA3D3292061F0C3000A440C /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA3D30C2061F0C2000A440C /* DDTTYLogger.h */; };
@@ -106,7 +105,6 @@
 		AAA3D3062061F0C1000A440C /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
 		AAA3D3072061F0C1000A440C /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
 		AAA3D3082061F0C1000A440C /* DDOSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDOSLogger.m; sourceTree = "<group>"; };
-		AAA3D3092061F0C1000A440C /* CocoaLumberjack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack.swift; sourceTree = "<group>"; };
 		AAA3D30A2061F0C2000A440C /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
 		AAA3D30B2061F0C2000A440C /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
 		AAA3D30C2061F0C2000A440C /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
@@ -255,7 +253,6 @@
 				F4161472006EB11561EC8606DF27F8CC /* ReplaceMe.m */,
 				AAA3D3032061F0C1000A440C /* CLI */,
 				AAA3D2FF2061F0C0000A440C /* CocoaLumberjack.h */,
-				AAA3D3092061F0C1000A440C /* CocoaLumberjack.swift */,
 				AAA3D3152061F0C2000A440C /* DDAbstractDatabaseLogger.h */,
 				AAA3D2FE2061F0C0000A440C /* DDAbstractDatabaseLogger.m */,
 				AAA3D3062061F0C1000A440C /* DDASLLogCapture.h */,
@@ -465,7 +462,6 @@
 			files = (
 				AAA3D32B2061F0C3000A440C /* DDContextFilterLogFormatter.m in Sources */,
 				AAA3D31E2061F0C3000A440C /* DDLog.m in Sources */,
-				AAA3D3262061F0C3000A440C /* CocoaLumberjack.swift in Sources */,
 				AAA3D3162061F0C3000A440C /* DDASLLogCapture.m in Sources */,
 				AAA3D3192061F0C3000A440C /* DDFileLogger.m in Sources */,
 				AAA3D3252061F0C3000A440C /* DDOSLogger.m in Sources */,
